@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  dikkan-radius:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dikkan-fs-eventlog
+    container_name: dikkan-fs-eventlog
+    ports:
+      - "8082:8082/tcp"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
