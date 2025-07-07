@@ -1,0 +1,19 @@
+{
+  "name": "dikkanfseventlogmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eventlog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raptiye210/dikkanFSEventLogManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raptiye210/dikkanFSEventLogManager/issues"
+  },
+  "homepage": "https://github.com/raptiye210/dikkanFSEventLogManager#readme"
+}
