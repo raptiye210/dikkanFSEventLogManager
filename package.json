@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/raptiye210/dikkanFSEventLogManager/issues"
   },
-  "homepage": "https://github.com/raptiye210/dikkanFSEventLogManager#readme"
+  "homepage": "https://github.com/raptiye210/dikkanFSEventLogManager#readme",
+  "dependencies": {
+    "mongoose": "^8.16.1",
+    "winston": "^3.17.0",
+    "winston-syslog": "^2.7.1",
+    "xml2js": "^0.6.2"
+  }
 }
