@@ -1,17 +1,19 @@
 {
-  "name": "dikkanfseventlogmanager",
+  "name": "eventLogReader",
   "version": "1.0.0",
-  "description": "",
-  "main": "eventlog.js",
+  "description": "Windows event log içerisindeki kayıtlara erişen uygulama",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node eventlog.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "install-deps": "npm install"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/raptiye210/dikkanFSEventLogManager.git"
   },
-  "author": "",
+  "author": "Başar Sönmez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/raptiye210/dikkanFSEventLogManager/issues"
@@ -22,5 +24,8 @@
     "winston": "^3.17.0",
     "winston-syslog": "^2.7.1",
     "xml2js": "^0.6.2"
+  },
+    "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
